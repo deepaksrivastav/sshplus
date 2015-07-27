@@ -40,10 +40,10 @@ Edit Configuration|atom| /home/deepak/.sshplus
 ```
 
 Install and Run:
-git clone https://github.com/deepaksrivastav/sshplus.git
-cd sshplus
-chmod a+rx sshplus.py
-sudo cp sshplus.py /usr/local/bin
+- git clone https://github.com/deepaksrivastav/sshplus.git
+- cd sshplus
+- chmod a+rx sshplus.py
+- sudo cp sshplus.py /usr/local/bin
 
 To run:
 /usr/local/bin/sshplus.py
