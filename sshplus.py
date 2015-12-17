@@ -208,7 +208,7 @@ def build_menu():
 
 if __name__ == "__main__":
     pynotify.init("SSH Plus")
-    ind = appindicator.Indicator("sshplus", "gnome-netstatus-tx",
+    ind = appindicator.Indicator("sshplus",  os.path.abspath('/usr/local/bin/sshplus.png'),
                                  appindicator.CATEGORY_APPLICATION_STATUS)
     ind.set_status(appindicator.STATUS_ACTIVE)
 
